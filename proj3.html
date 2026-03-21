@@ -3,16 +3,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>Malware Analysis</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon_io/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="images\favicon_io\favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-  <main style="scroll-padding-top: 100px;">
+  <main style="scroll-padding-top: 100px; padding-bottom: 100px; padding-top: 100px;">
     <nav class="navbar navbar-custom navbar-expand-md border-bottom border-body fixed-top" data-bs-theme="dark">
-      <a class="navbar-brand" href="#"></a>
-      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+    <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="Logo" width="50" height="50"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -42,9 +42,14 @@
       </ul>
     </div>
     </div>
-  </nav>
-      <h1>Hello! My name is Keonna. <br>Welcome to my portfolio!</h1>
-  </main>
+    </nav>
+    <object class="pdf" 
+            data="files\Financial-xls Report.pdf"
+            width="800"
+            height="500">
+    </object>
+    <br><br>
+    <p>This project analyzes a malicious file called Financial-xls using static and dynamic analysis. It was identified as a trojan that is packed to avoid detection. The malware interacts with system memory, network connections, and registry settings. The analysis uses tools like Pestudio, Ghidra, and sandbox environments to examine its behavior.</p>
     <footer class="footer footer-expand-md fixed-bottom">
         <p>&copy 2026 Keonna Elliott
         <!-- email --> 

@@ -1,0 +1,78 @@
+body{
+    background-color: #345830;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    position: flex;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: #1E3F20;
+    color: white;
+    position: relative;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+img{
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    display: flex;
+}
+p{
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+.pdf{
+    width: 100%;
+    aspect-ratio: 3/2;
+    padding: relative;
+}
+
+article{
+    background-color: #1E3F20;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-custom {
+    background-color: #1E3F20;
+    position: relative;
+    top: 0;
+    width: 100%;
+    scroll-padding-top: 20px;
+}
+
+.form {
+    border-style: solid;
+    align-content: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.mail, .linkedin, .git {
+    margin-left: 100px;
+}
